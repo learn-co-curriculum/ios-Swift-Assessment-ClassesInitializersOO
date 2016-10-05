@@ -22,7 +22,7 @@ A short assessment to test a student's comprehension of basic object orientation
 
 ### 3. Create instances of both classes in the `AppDelegate`
 
-1. Create two variables in the `application:didFinishLaunchingWithOptions()` method of the `AppDelegate` class
+1. Create two variables in the `application(didFinishLaunchingWithOptions)` method of the `AppDelegate` class
 
   * Declare a variable of type `Person` using the designated initializer
   
