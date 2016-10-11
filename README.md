@@ -1,5 +1,6 @@
 # iOS Week 2 Swift Assessment
 A short assessment to test a student's comprehension of basic object orientation.
+The student may use a ViewController or a Playground file
 
 ## Instructions
 
@@ -57,7 +58,7 @@ A short assessment to test a student's comprehension of basic object orientation
   * This function should remove the pet it returns from the strays array
 
 
-### 11. Create instances of classes in the `ViewController.swift`
+### 11. Create instances of classes in the `ViewController.swift` or `.playground` file
 
   * Create an `Owner` object //You can choose whatever name you like
 
