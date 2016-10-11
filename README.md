@@ -53,11 +53,11 @@ The student may use a ViewController or a Playground file
 1. Declare a `strays` empty array of type `Pet`
 2. Create a few random `Pet` objects
 3. Declare and define a default initializer that populates the strays array with the random pets you created
-4. Finally declare and define a function `allowAdoption` that returns an optional Pet
-  * This function should remove the pet it returns from the strays array
+4. Declare and define a function `allowAdoption` that returns an optional Pet
+  * This function should remove the pet it returns from the `strays` array
 
 ### 11. Create instances of classes in the `ViewController.swift` or `.playground` file
-  * Create an `Owner` object //You can choose whatever name you like
+  * Create an `Owner` object
   * Create an `AdoptionClinic` object
   * Use the `AdoptionClinic` object to add a pet to the `Owner` object.
   * Call the `takeCareOfPet` method on the `Owner` object
