@@ -12,7 +12,7 @@ The student may use a ViewController or a Playground file
   * The designated initializer should include a `name` argument and assign the value to the `name` property
   * The default initializer should set `"Jane Doggy"` as the default value
 
-### 2. Create an enum for each type of Pet `PetType`
+### 2. Create an enum for each kind of Pet `PetType`
 1. This enum should have three cases `dog`, `cat` and `bird`
 
 ### 3. Create an enum for each pets `Condition`.
