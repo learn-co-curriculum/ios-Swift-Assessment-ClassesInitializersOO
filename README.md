@@ -50,7 +50,7 @@ The student may use a ViewController or a Playground file
 3. Declare and define a function `takeCareOfPet` that checks the pet's condition. If the pet is sick in any way a vet object should be initialized/instantiated and should treat the pet
 
 ### 10. Create an `AdoptionClinic` struct
-1. Declare a `strays` empty array of type `Pet`
+1. Declare a empty array called `strays` of type `Pet`array
 2. Create a few random `Pet` objects
 3. Declare and define a default initializer that populates the strays array with the random pets you created
 4. Declare and define a function `allowAdoption` that returns an optional Pet
