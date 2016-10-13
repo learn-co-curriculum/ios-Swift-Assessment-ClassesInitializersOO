@@ -41,7 +41,7 @@ The student may use a ViewController or a Playground file
 1. The `Hospital` class should have a single class function called `referSurgeon` that returns a Surgeon object
 
 ### 8. Complete the `Vet` class
-1. In the `Vet` class, if the pet being treated is in critical condition you will need a surgeon. Create a new variable that's assigned to the return of the `referSurgeon` function
+1. In the `Vet` class, if the pet being treated is in critical condition you will need a surgeon. Create a new variable in the treat funtion that's assigned to the return of the `referSurgeon` function
 2. Use this variable which should be of type `Surgeon` to treat the pet
 
 ### 9. Create an `Owner` struct
