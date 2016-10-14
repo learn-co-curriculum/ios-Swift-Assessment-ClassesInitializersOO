@@ -19,11 +19,11 @@ The student may use a ViewController or a Playground file
 1. This enum should have three cases `sick`, `healthy` and `critical`
 
 ### 4. Complete the Pet class
-1. Declare a `condition` property of type `Condition`
-2. Declare a `type` property of type `PetType`
-3. Set the default value for `condition` to `healthy`
+1. Declare an instance property named `condition` property of type `Condition`
+2. Declare an instance property named `type` property of type `PetType`
+3. Set the default value for `condition` to `healthy` (at the point of declaration)
 4. Change the designated initializer to also accept an argument called `type` of `PetType`
-5. Update the default initializer to set the default `type` to `dog`
+5. Update the default initializer to assign the value `.dog` to `type`.
 
 ### 5. Create the `Vet` class
 1. Declare and define a  `treat` function that takes a argument of type `Pet`
