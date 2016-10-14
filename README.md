@@ -45,9 +45,9 @@ The student may use a ViewController or a Playground file
 2. Use this variable which should be of type `Surgeon` to treat the pet
 
 ### 9. Create an `Owner` struct
-1. Declare a `pet` property of type optional `Pet`
+1. Declare an instance property named `pet` of type optional `Pet`
 2. Declare and define a designated initializer for this struct
-3. Declare and define a function `takeCareOfPet` that checks the pet's condition. If the pet is sick in any way a vet object should be initialized/instantiated and should treat the pet
+3. Declare and define a function `takeCare(of:)` that takes in one argument named `pet` of type `Pet`. This funcion checks the pet's condition. If the pet is sick in any way, a vet instance should be initialized/instantiated and should treat the pet.
 
 ### 10. Create an `AdoptionClinic` struct
 1. Declare a empty array called `strays` of type `Pet`array
