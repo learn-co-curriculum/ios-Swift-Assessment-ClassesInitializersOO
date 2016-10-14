@@ -26,7 +26,7 @@ The student may use a ViewController or a Playground file
 5. Update the default initializer to assign the value `.dog` to `type`.
 
 ### 5. Create the `Vet` class
-1. Declare and define a  `treat` function that takes a argument of type `Pet`
+1. Create the function `treat(_:)` that takes one argument named `pet` of type `Pet`
   * This function should check the pet's condition.
   * If the pet is healthy the vet should do nothing but print "This pet is doing well. Good Job".
   * If the pet is `sick` the vet should change the pet's condition to `healthy`
