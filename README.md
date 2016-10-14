@@ -24,6 +24,7 @@ The student may use a ViewController or a Playground file
 3. Set the default value for `condition` to `healthy` (at the point of declaration)
 4. Change the designated initializer to also accept an argument called `type` of `PetType`
 5. Update the default initializer to assign the value `.dog` to `type`.
+6. Create a read-only computed property called `isSick` of type `Bool`. It should check whether or not the `condition` variable is of type `.sick` or `.critical` and return `true`. If it's not either of those cases, it should return `false`.
 
 ### 5. Create the `Vet` class
 1. Create the function `treat(_:)` that takes one argument named `pet` of type `Pet`
