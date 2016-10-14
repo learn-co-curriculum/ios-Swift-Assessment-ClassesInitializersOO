@@ -29,7 +29,7 @@ The student may use a ViewController or a Playground file
 1. Declare and define a  `treat` function that takes a argument of type `Pet`
   * This function should check the pet's condition.
   * If the pet is healthy the vet should do nothing but print "This pet is doing well. Good Job".
-  * If the pet is `sick` the vet should change change the pet's condition to `healthy`
+  * If the pet is `sick` the vet should change the pet's condition to `healthy`
   * If the pet is  `critical` the vet will need a surgeon. You will define this class next
 
 ### 6. Create the `Surgeon` class  
