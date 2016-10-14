@@ -16,7 +16,7 @@ The student may use a ViewController or a Playground file
 1. This enum should have three cases `dog`, `cat` and `bird`
 
 ### 3. Create an enum for each pets `Condition`.
-1. This enum should have two cases `sick`, `healthy` and `critical`
+1. This enum should have three cases `sick`, `healthy` and `critical`
 
 ### 4. Complete the Pet class
 1. Declare a `condition` property of type `Condition`
