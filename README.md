@@ -1,6 +1,5 @@
-# iOS Assessment on Swift Classes, Structs, Initializers, and OOP
-A short assessment to test a student's comprehension of basic object orientation.
-The student may use a ViewController or a Playground file
+# Assessment on Swift Classes, Structs, Initializers, and OOP
+A short assessment to test comprehension of basic object orientation. The student may use a ViewController or a Playground file.
 
 ## Instructions
 
