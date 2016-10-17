@@ -10,18 +10,18 @@ The student may use a ViewController or a Playground file
 
 3. Declare and define a default and designated initializer for the class
   * The designated initializer should include a `name` argument and assign the value to the `name` property
-  * The default initializer should set `"Jane Doggy"` as the default value
+  * The default initializer should set `"Jane Doggy"` as the default value for the `name`
 
-### 2. Create an enum for each kind of Pet `PetType`
+### 2. Create an enum for each kind of `Pet` called `PetType`
 1. This enum should have three cases `dog`, `cat` and `bird`
 
-### 3. Create an enum for each pets `Condition`.
+### 3. Create an enum for each pets's level of health called `Condition`
 1. This enum should have three cases `sick`, `healthy` and `critical`
 
-### 4. Complete the Pet class
+### 4. Complete the `Pet` class
 1. Declare an instance property named `condition` of type `Condition`
 2. Declare an instance property named `type` of type `PetType`
-3. Set the default value for `condition` to `healthy` (at the point of declaration)
+3. Set the default value for `condition` to `.healthy` (at the point of declaration)
 4. Change the designated initializer to also accept an argument called `type` of `PetType`
 5. Update the default initializer to assign the value `.dog` to `type`.
 6. Create a read-only computed property called `isSick` of type `Bool`. It should check whether or not the `condition` variable is of type `.sick` or `.critical` and return `true`. If it's not either of those cases, it should return `false`.
