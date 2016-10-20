@@ -28,21 +28,21 @@ A short assessment to test comprehension of basic object orientation. The studen
 ### 5. Create the `Vet` class
 1. Create the function `treat(_:)` that takes one argument named `pet` of type `Pet`.
   * This function should check the pet's condition.
-  * If the pet is healthy the vet should do nothing but print "This pet is doing well. Good Job."
-  * If the pet is `sick` the vet should change the pet's condition to `healthy`.
-  * If the pet is `critical` the vet will need a surgeon. You will define this class next.
+  * If the pet is `.healthy` the vet should do nothing but print "This pet is doing well. Good Job."
+  * If the pet is `.sick` the vet should change the pet's condition to `healthy`.
+  * If the pet is `.critical` the vet will need a surgeon. You will define this class next.
 
 ### 6. Create the `Surgeon` class  
 1. The `Surgeon` class should inherit from the `Vet` class.
-2. Declare a function `performSurgery` that takes an argument of type `Pet`. This function should change a pet's condition from `critical` to `sick`.
-3. Override the `treat(_:)` function and call the `performSurgery`.
+2. Declare a function `performSurgery` that takes an argument of type `Pet`. This function should change a pet's condition from `.critical` to `.sick`.
+3. Override the `treat(_:)` function to call `performSurgery`.
 
 ### 7. Declare a `Hospital` class
 1. The `Hospital` class should have a single class function called `referSurgeon` that returns a `Surgeon` object.
 
 ### 8. Complete the `Vet` class
-1. In the `Vet` class, if the pet being treated is in critical condition you will need a surgeon. Create a new variable in the treat funtion that's assigned to the return of the `referSurgeon` function.
-2. Use this instance of type `Surgeon` to `treat(_:)` the pet.
+1. In the `Vet` class, if the pet being treated is in critical condition you will need a surgeon. Create a new variable in the treat funtion's `.critical` case that's assigned to the return of the `referSurgeon` function.
+2. Use this surgeon to `treat(_:)` the pet.
 
 ### 9. Create an `Owner` struct
 1. Declare an instance property named `pet` of type optional `Pet`.
